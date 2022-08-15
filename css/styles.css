@@ -1,0 +1,366 @@
+/* Colours
+
+#39312E
+#fff
+#E29385
+#5C623F
+#7C8347
+#CFD3D8
+#C3C4B1
+#9AEAEA
+#9ad5ca
+#CDE2B6
+font-family: 'Courgette', cursive;
+font-family: 'EB Garamond', serif;
+
+*/
+
+
+
+body{
+    
+    font-family: 'EB Garamond', serif;
+    text-align: center !important;
+}
+
+h1{
+    color: #fff;
+    font-size: 3.5rem !important;
+    font-weight: 900 !important;
+}
+
+h2{
+    color: #39312E;
+    font-size: 3rem !important;
+    font-weight: 600!important;
+    font-family: 'Courgette', monospace;
+}
+
+a{
+    color: #39312E !important;
+    font-size: 1.5rem !important;
+    font-family: 'Courgette', monospace;
+    font-weight: 100 !important;
+}
+
+.container-top{
+    padding: 2% 15% 0% 15% !important;
+}
+
+.container-fluid{
+    padding: 2% 15% 2% 15% !important;
+    
+}
+
+.container-small{
+    padding: 2% 15% 2% 15% !important;
+}
+
+/*Headings */
+
+.header-large{
+    
+    line-height: 1.5 !important;
+    
+}
+
+.dowload-retro-heading{
+    font-family: 'Nova Mono', monospace;
+    line-height: 1.5;
+}
+
+.pricing-header{
+    color: #000000; 
+    padding-bottom:1.5rem ;
+}
+
+.feature-headings{
+    
+    font-family: 'Courgette', monospace;
+    font-size: 3rem;
+   
+}
+
+.countdown-title{
+    color:#39312E
+}
+
+.countdown-time{
+    color: #39312E;
+    font-family: 'Courgette', monospace;
+    font-size: 3rem;
+}
+
+.wedding-decription-heading{
+    color: #39312E;
+    font-family: 'Courgette', monospace;
+    font-size: 3rem;
+    text-align: left !important;
+    margin-top: 20%;
+}
+.small-desription{
+    color: #39312E;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.25rem;
+    text-align: left !important;
+}
+
+.countdown-discription{
+    color: #39312E;
+    font-family: 'Courgette', monospace;
+    font-size: 2rem;
+}
+.carousel-header{
+    color:#39312E;
+    line-height: 1.5;
+    font-weight: 900 !important;
+}
+
+.pricing-price{
+    line-height: 2;
+}
+
+/* Links */
+
+.navbar-brand{
+    font-size: 3rem !important;
+    font-weight: 200 !important;
+}
+
+.nav-link:hover{
+    color: #fff !important;
+}
+
+.footer-tag{
+    color:#1A8BD9;
+    text-decoration: none;
+    padding: 1.5rem
+}
+
+/* Paragraphs */
+
+.feature-discription{
+    font-size: 1.5rem !important;
+    color: #39312E;
+    
+}
+
+.location-discription{
+    font-size: 1.5rem !important;
+    color: #39312E;
+    
+}
+
+.location-images{
+    width: 75%;
+}
+
+.price-discription{
+    line-height: 2;
+}
+
+.copyright{
+    line-height: 2;
+}
+
+/* Images */
+
+.andrew-img{
+    width: 50%;
+    transform: rotate(10deg) !important;
+    margin-left: 25%;
+}
+
+.testimonial-image{
+    width: 50%;
+    object-fit:scale-down;
+    height: 50vh;
+    margin: 20px;
+}
+
+
+/* Sections */
+
+#header{
+    text-align: left;
+    background-color: #C3C4B1
+    ;
+}
+
+#features{
+    
+    padding: 3rem 0;
+}
+
+#countdown{
+ 
+    background-color: #C3C4B1;
+    
+
+}
+
+#press{
+    background-color: #1A8BD9;
+    
+    padding-bottom: 3%;
+}
+
+#download{
+    padding: 7% 15%;
+    background-color: #FF8201 !important;
+    
+}
+
+#footer{
+    
+    padding: 3rem;
+}
+
+#web{
+    color: #E29385;
+}
+
+/* Navagation Bar */
+
+.navbar{
+    padding-bottom: 4.5rem !important;
+}
+
+.nav-item{
+    padding: 0 18px !important;
+}
+
+/* Download Buttons */
+
+.dowload-button{
+    
+    margin: 5% 3% 5% 0 !important;
+}
+
+/* Features */
+
+
+
+.feature-icons{
+    color: #39312E;
+    font-size: 5rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+
+
+/* Testimonials */
+
+.press-logo{
+    padding: 3% 3%;
+    width: 15%;
+}
+
+.carousel-item{
+    padding: 3% 15% 3% 15% !important;
+    
+}
+
+
+/* Pricing */
+
+.pricing-card{
+    padding: 2% 3%;
+}
+
+.model-pack{
+    color: #ffffff;
+    background-color:#EF3726 !important ;
+    font-family: 'Nova Mono', monospace;
+}
+
+.model-button{
+    color: #EF3726!important;
+    background-color: white !important ;
+    border-color: #EF3726 !important;
+}
+
+.model-button:hover{
+    background-color: #EF3726 !important;
+    color:white !important;
+}
+
+.art-pack{
+    color: #ffffff;
+    background-color:#FF8201 !important ;
+    font-family: 'Nova Mono', monospace;
+}
+
+.art-button{
+    color: #FF8201!important;
+    background-color: white !important ;
+    border-color: #FF8201 !important;
+}
+
+.art-button:hover{
+    background-color: #FF8201 !important;
+    color:white !important;
+}
+.photo-pack{
+    color: #ffffff;
+    background-color:#1A8BD9 !important ;
+    font-family: 'Nova Mono', monospace;
+}
+
+.photo-button{
+    color: #1A8BD9!important;
+    background-color: white !important ;
+    border-color: #1A8BD9 !important;
+}
+
+.photo-button:hover{
+    background-color: #1A8BD9 !important;
+    color:white !important;
+}
+
+
+/* Media */
+
+@media (max-width: 1024px) and (min-width: 601px){
+
+    .heading-row{
+        text-align: center;
+    }
+
+    h1{
+        font-size: 2.5rem !important;
+    }
+
+    .carousel-header, .dowload-retro-heading{
+        font-size: 2rem;
+    }
+
+    .testimonial-image{
+        width: 30%;
+    }
+}
+
+@media ( max-width: 600px) {
+    .heading-row{
+        text-align: center;
+    }
+
+    h1, .carousel-header, .dowload-retro-heading{
+        font-size: 2rem !important;
+    }
+
+    em{
+        font-size: 0.5rem;
+    }
+
+    .pricing-header, .pricing-price{
+        line-height: 2;
+        font-size: 2rem;
+    }
+
+    .testimonial-image{
+        width: 30%;
+    }
+   
+}
