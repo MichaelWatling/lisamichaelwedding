@@ -115,6 +115,10 @@ a{
     line-height: 1.5;
     font-weight: 900 !important;
 }
+.carousel-inner{
+    height:100vh;
+    padding-bottom: 0% !important;
+}
 
 .pricing-price{
     line-height: 2;
@@ -172,10 +176,10 @@ a{
 }
 
 .testimonial-image{
-    width: 50%;
+    width: fit-content;
     object-fit:scale-down;
-    height: 50vh;
-    margin: 20px;
+    height: fit-content;
+  
 }
 
 
@@ -183,8 +187,7 @@ a{
 
 #header{
     text-align: left;
-    background-color: #C3C4B1
-    ;
+    background-color: #C3C4B1;
 }
 
 #features{
@@ -258,7 +261,7 @@ a{
 }
 
 .carousel-item{
-    padding: 3% 15% 3% 15% !important;
+    padding: 3% 15% 0% 15% !important;
     
 }
 
@@ -324,6 +327,11 @@ a{
 
 @media (max-width: 1024px) and (min-width: 601px){
 
+
+    .container-top{
+        padding: 5% 0% 0% 10% !important;
+    }
+
     .heading-row{
         text-align: center;
     }
@@ -332,13 +340,32 @@ a{
         font-size: 2.5rem !important;
     }
 
+    .navbar-brand{
+        font-size: 2rem !important;
+    }
+
+    .nav-link{
+        font-size: 1.2rem !important;
+
+    }
+
     .carousel-header, .dowload-retro-heading{
         font-size: 2rem;
     }
 
     .testimonial-image{
-        width: 30%;
+        width: 80%;
+        object-fit:scale-down;
+        height: fit-content;
+      
     }
+
+    .carousel-inner{
+        height:50vh;
+        padding-bottom: 0% !important;
+    }
+
+    
 }
 
 @media ( max-width: 600px) {
@@ -347,7 +374,10 @@ a{
     }
 
     h1, .carousel-header, .dowload-retro-heading{
-        font-size: 2rem !important;
+        font-size: 2.5rem !important;
+    }
+    .navbar-brand{
+        font-size: 1.5rem !important;
     }
 
     em{
@@ -360,7 +390,16 @@ a{
     }
 
     .testimonial-image{
-        width: 30%;
+        width: 80%;
+        object-fit:scale-down;
+        height: fit-content;
+      
     }
+
+    .carousel-inner{
+        height:50vh;
+        padding-bottom: 0% !important;
+    }
+    
    
 }
