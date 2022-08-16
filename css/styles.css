@@ -64,6 +64,10 @@ a{
     
 }
 
+.header-img{
+    width: 2vw;
+}
+
 .dowload-retro-heading{
     font-family: 'Nova Mono', monospace;
     line-height: 1.5;
@@ -103,6 +107,13 @@ a{
     font-family: 'EB Garamond', serif;
     font-size: 1.25rem;
     text-align: left !important;
+}
+
+.small-desription-center{
+    color: #39312E;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.25rem;
+    text-align: center !important;
 }
 
 .countdown-discription{
@@ -179,7 +190,15 @@ a{
     width: fit-content;
     object-fit:scale-down;
     height: fit-content;
+    
   
+}
+
+.bellIcon{
+    color: #39312E;
+    font-size: 5rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
 }
 
 
@@ -340,6 +359,13 @@ a{
         font-size: 2.5rem !important;
     }
 
+    h2{
+        color: #39312E;
+        font-size: 2srem !important;
+        font-weight: 600!important;
+        font-family: 'Courgette', monospace;
+    }
+
     .navbar-brand{
         font-size: 2rem !important;
     }
@@ -365,6 +391,31 @@ a{
         padding-bottom: 0% !important;
     }
 
+    .header-img{
+        width: 10vw;
+    }
+
+    .small-desription{
+        color: #39312E;
+        font-family: 'EB Garamond', serif;
+        font-size: 1.25rem;
+        text-align: center !important;
+    }
+
+    .wedding-decription-heading{
+        color: #39312E;
+        font-family: 'Courgette', monospace;
+        font-size: 3rem;
+        text-align: center !important;
+        margin-top: 20%;
+    }
+
+    .location-discription{
+        font-size: 1rem !important;
+        color: #39312E;
+        
+    }
+
     
 }
 
@@ -375,6 +426,13 @@ a{
 
     h1, .carousel-header, .dowload-retro-heading{
         font-size: 2.5rem !important;
+    }
+
+    h2{
+        color: #39312E;
+        font-size: 2rem !important;
+        font-weight: 600!important;
+        font-family: 'Courgette', monospace;
     }
     .navbar-brand{
         font-size: 1.5rem !important;
@@ -401,5 +459,29 @@ a{
         padding-bottom: 0% !important;
     }
     
+    .header-img{
+        width: 10vw;
+    }
+
+    .small-desription{
+        color: #39312E;
+        font-family: 'EB Garamond', serif;
+        font-size: 1.25rem;
+        text-align: center !important;
+    }
+
+    .wedding-decription-heading{
+        color: #39312E;
+        font-family: 'Courgette', monospace;
+        font-size: 3rem;
+        text-align: center !important;
+        margin-top: 20%;
+    }
+
+    .location-discription{
+        font-size: 1rem !important;
+        color: #39312E;
+        
+    }
    
 }
