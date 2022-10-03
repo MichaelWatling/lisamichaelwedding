@@ -131,7 +131,7 @@ a{
     font-weight: 900 !important;
 }
 .carousel-inner{
-    height:100vh;
+    height:100%;
     padding-bottom: 0% !important;
 }
 
@@ -154,6 +154,10 @@ a{
     color:#1A8BD9;
     text-decoration: none;
     padding: 1.5rem
+}
+
+.navbar-dark .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2857, 49, 46, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important
 }
 
 /* Paragraphs */
@@ -278,9 +282,10 @@ a{
 
 /* Testimonials */
 
-.press-logo{
+.logos{
     padding: 3% 3%;
     width: 15%;
+   
 }
 
 .carousel-item{
@@ -385,13 +390,12 @@ a{
 
     .testimonial-image{
         width: 80%;
-        object-fit:scale-down;
-        height: fit-content;
-      
+        height: 200px;
     }
 
     .carousel-inner{
-        height:50vh;
+        height:50%;
+        overflow: hidden; 
         padding-bottom: 0% !important;
     }
 
@@ -418,6 +422,11 @@ a{
         font-size: 1rem !important;
         color: #39312E;
         
+    }
+    .logos{
+        padding: 3% 3%;
+        width: 15%;
+       
     }
 
     
@@ -453,13 +462,12 @@ a{
 
     .testimonial-image{
         width: 80%;
-        object-fit:scale-down;
-        height: fit-content;
+        height: 200px;
       
     }
 
     .carousel-inner{
-        height:50vh;
+        height:50%;
         padding-bottom: 0% !important;
     }
     
@@ -486,6 +494,12 @@ a{
         font-size: 1rem !important;
         color: #39312E;
         
+    }
+
+    .logos{
+        padding: 3% 3%;
+        width: 50%;
+       
     }
    
 }
