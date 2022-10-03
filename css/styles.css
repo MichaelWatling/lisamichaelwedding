@@ -68,6 +68,10 @@ a{
     width: 2vw;
 }
 
+.partyImage{
+    padding-top: 2%;
+}
+
 .dowload-retro-heading{
     font-family: 'Nova Mono', monospace;
     line-height: 1.5;
